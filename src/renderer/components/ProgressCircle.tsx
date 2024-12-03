@@ -3,11 +3,12 @@ import Stack from '@mui/material/Stack';
 import CircularProgress, {
   CircularProgressProps,
 } from '@mui/material/CircularProgress';
+import { Typography } from '@mui/material';
 
 function ProgressCircle(props: CircularProgressProps) {
   return (
     //The Gray Part of the circle
-    <Box sx={{ position: 'relative' }}>
+    <Box sx={{ display: 'flex' }}>
       <CircularProgress
         variant="determinate"
         sx={(theme) => ({
@@ -30,7 +31,6 @@ function ProgressCircle(props: CircularProgressProps) {
         sx={(theme) => ({
           //CSS Styling
           color: '#1a90ff',
-          position: 'absolute',
           margin: '10px',
           marginLeft: '100px',
           strokeLinecap: 'round',
@@ -42,6 +42,18 @@ function ProgressCircle(props: CircularProgressProps) {
         thickness={4}
         value={75}
       />
+
+      <Typography
+        variant="h2"
+        sx={{
+          fontFamily: 'InterBold',
+          display: 'flex',
+          alignItems: 'center',
+          marginLeft: '30px',
+        }}
+      >
+        75% Done
+      </Typography>
     </Box>
   );
 }
