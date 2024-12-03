@@ -1,3 +1,9 @@
 * {
   background-color: #262626;
 }
+
+/*Custom font*/
+@font-face {
+  font-family: 'InterBold';
+  src: url('./../../assets/fonts/Inter_28pt-Bold.ttf');
+}
