@@ -1,6 +1,7 @@
 //Imports
 import { CircularProgress, Typography } from '@mui/material';
 import styles from './MainMenuStyle';
+import ProgressCircle from './../components/ProgressCircle';
 
 export default function MainMenu() {
   return (
@@ -9,13 +10,7 @@ export default function MainMenu() {
         Hello User👋
       </Typography>
 
-      <CircularProgress
-        sx={{
-          '--CircularProgress-size': '180px',
-          '--CircularProgress-trackThickness': '20px',
-          '--CircularProgress-progressThickness': '20px',
-        }}
-      />
+      <ProgressCircle></ProgressCircle>
     </div>
   );
 }
