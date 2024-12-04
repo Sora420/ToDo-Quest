@@ -42,18 +42,6 @@ function ProgressCircle(props: CircularProgressProps) {
         thickness={4}
         value={75}
       />
-
-      <Typography
-        variant="h2"
-        sx={{
-          fontFamily: 'InterBold',
-          display: 'flex',
-          alignItems: 'center',
-          marginLeft: '30px',
-        }}
-      >
-        75% Done
-      </Typography>
     </Box>
   );
 }
