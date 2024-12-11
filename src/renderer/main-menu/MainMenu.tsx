@@ -1,6 +1,7 @@
 import { Typography, Box } from '@mui/material';
 import styles from './MainMenuStyle';
 import ProgressCircle from './../components/ProgressCircle';
+import ProgressLine from './../components/ProgressLine';
 
 const currentToDo = 'Homework📚';
 
@@ -23,6 +24,7 @@ export default function MainMenu() {
             Current ToDo: {currentToDo}
           </Typography>
         </Box>
+        <ProgressLine />
       </Box>
     </div>
   );
