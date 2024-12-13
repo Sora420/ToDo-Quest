@@ -21,7 +21,7 @@ const styles = {
   currentToDo: {
     fontFamily: 'InterBold',
     marginLeft: 'auto',
-    marginRight: '350px',
+    marginRight: '15%',
   },
   flexRow: {
     display: 'flex',
