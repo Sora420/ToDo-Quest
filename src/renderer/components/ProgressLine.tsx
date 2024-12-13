@@ -4,11 +4,9 @@ import LinearProgress, {
 } from '@mui/material/LinearProgress';
 
 const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({
-  position: 'absolute',
-  left: '50%',
-  transform: 'translate(-47%, 325%)',
+  marginTop: '25px',
   height: 20,
-  width: '75%',
+  width: '85%',
   borderRadius: 10,
   [`&.${linearProgressClasses.colorPrimary}`]: {
     backgroundColor: theme.palette.grey[200],

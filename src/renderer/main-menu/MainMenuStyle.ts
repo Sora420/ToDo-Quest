@@ -5,6 +5,11 @@ const styles = {
     margin: '20px',
     fontFamily: 'InterBold',
   },
+  progressContainer: {
+    display: 'flex',
+    flexDirection: 'column',
+    width: '100%',
+  },
   baselineGroup: {
     display: 'flex',
     alignItems: 'baseline', // Ensures Typography elements align by their baseline
